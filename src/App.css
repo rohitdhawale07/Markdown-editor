@@ -1,0 +1,153 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.editor-container,
+.preview-container,
+.notes-container {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.preview-container, .editor-container{
+  width: 35%;
+}
+
+.format-buttons {
+  margin-bottom: 10px;
+}
+
+.format-buttons button {
+  margin-left: 10px;
+}
+
+.markdown-editor,
+.markdown-preview {
+  width: 100%;
+  min-height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.notes-container {
+  width: 10%;
+}
+
+.notes-container h2 {
+  color: #333;
+}
+
+.notes-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.notes-container li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notes-container button {
+  background-color: #d9534f;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.notes-container button:hover {
+  background-color: #c9302c;
+}
+
+.notes-container button:active {
+  background-color: #ac2925;
+}
+
+.notes-container input {
+  width: 70%;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.notes-container .add-note-button {
+  background-color: #5bc0de;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.notes-container .add-note-button:hover {
+  background-color: #46b8da;
+}
+
+.notes-container .add-note-button:active {
+  background-color: #31b0d5;
+}
+
+.preview-container h2 {
+  color: #333;
+}
+
+button {
+  background-color: #5bc0de;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #46b8da;
+}
+
+button:active {
+  background-color: #31b0d5;
+}
+
+.notes-container button {
+  background-color: #5bc0de;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.notes-container .add-note-button {
+  background-color: #5bc0de;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.notes-container .delete-note-button {
+  background-color: #d9534f;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.notes-container .icon {
+  margin-right: 5px;
+}
